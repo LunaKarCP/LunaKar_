@@ -12,6 +12,9 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+}*::-webkit-scrollbar{
+    width: 0;
+    height: 0;
 }
 
 html,body{
@@ -71,7 +74,6 @@ p{
     background-color: var(--colorb);
     color: rgb(195, 195, 195);
     padding: 22px;
-    padding-bottom: 80px;
     border-radius: 6px;
     font-size: x-large;
     justify-content: center;
@@ -80,6 +82,10 @@ p{
 }#introduccion_inicio_info{
     flex-direction: column;
     align-items: center;
+}
+
+.cont_img_sat{
+    padding: 23px;
 }
 
 .img_sat{
@@ -109,5 +115,8 @@ p{
 
 .fila_cuerpo{
     /* min-height: 400px; */
-    background-color: rgb(0, 128, 255);
+}
+
+.img_contacto{
+    margin-top: 8px;
 }
