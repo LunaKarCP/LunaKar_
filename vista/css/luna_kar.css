@@ -81,7 +81,7 @@ p{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }#introduccion_inicio_info{
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .cont_img_sat{
@@ -97,8 +97,6 @@ p{
 }
 
 .cont_p_inf_cart{
-    align-items: center;
-    justify-content: center;
     padding: 10px;
 }#p_inf_cart_titulo{
     font-size: 26px;
