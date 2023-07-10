@@ -116,6 +116,7 @@ p{
     /* min-height: 400px; */
     flex-direction: column;
     padding: 12px;
+    min-height: max-content;
 }
 
 .cont_img_contacto{
