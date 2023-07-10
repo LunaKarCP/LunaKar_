@@ -16,7 +16,7 @@ function DOM(){
             
             let informacion_cartas_porte = mkObj(pestaña_inicio,"informacion_cartas_porte","informacion_cartas_porte")
                 let img_sat = mkObjImg(informacion_cartas_porte,"img_sat","img_sat","./vista/img/logo_sat.png")
-                let inf_carta_porte = mkObj(informacion_cartas_porte,"introduccion_inicio","introduccion_inicio_info","<p>Información relacionada con facturación: <br>-- Nombre de quien ofrece el servicio de transporte/flete</p>")
+                let inf_carta_porte = mkObj(informacion_cartas_porte,"introduccion_inicio","introduccion_inicio_info","<p>Información relacionada con facturación: <br>-- Cédula de Identificación Fiscal<br>-- asdjfklñ</p>")
 
             
 

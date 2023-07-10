@@ -3,6 +3,7 @@
     --colora_a:#1f1f1fb7;
     --colorb:#1a1a1a;
     --colorc:#6674ee;
+    overflow: hidden;
 }
 
 *{
@@ -32,6 +33,7 @@ p{
 
 .cont_principal{
     flex-direction: column;
+    padding-bottom: 35px;
 }
 
 .header_principal{
@@ -41,6 +43,7 @@ p{
 
 .cuerpo_principal{
     background-color: rgb(223, 227, 230);
+    padding-bottom: 12px;
 }
 
 .cont_img_logo_header{
@@ -56,6 +59,8 @@ p{
 .pestaña{
     padding: 6px;
     flex-direction: column;
+    overflow: auto;
+    padding-bottom: 50px;
 }
 
 .introduccion_inicio{
@@ -64,11 +69,16 @@ p{
     background-color: var(--colorb);
     color: rgb(195, 195, 195);
     padding: 22px;
+    padding-bottom: 80px;
     border-radius: 6px;
     font-size: x-large;
     justify-content: center;
     text-align: start;
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.img_sat{
+    padding: 8px;
 }
 
 .informacion_cartas_porte{
