@@ -210,10 +210,13 @@ p{
     border: solid 1px #1e1e1e;
     border-radius: 12px;
     padding: 6px;
-}
-
-@media (max-width:400px) {
+}@media (max-width:400px) {
     #fila_cuerpo_pestaña_anuncio_img_desc{
         flex-direction: column;
     }
+}
+
+.img_publicidad_lunakar_confianza{
+    border-radius: 12px;
+    padding: 13px;
 }

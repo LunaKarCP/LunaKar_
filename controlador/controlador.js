@@ -49,6 +49,8 @@ function DOM(){
                     let p_info_carta_porte_descripcion_beneficios_gestion_informacion = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","-- Gestión de Información: Integración datos más precisos.")
                     let p_info_carta_porte_descripcion_beneficios_transparecia_seguridad = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","-- Transparencia y Seguridad: Registro electrónico detallado que evita prácticas fraudelentas e irregularidades en la cadena de suministro.")
 
+                let img_publicidad_lunakar_confianza = mkObjImg(fila_info_carta_porte,"img_publicidad_lunakar_confianza","img_publicidad_lunakar_confianza","./vista/img/publicidad_confianza.png")
+
                 let p_info_carta_porte_titulo_preguntas_frecuentes = mkText(fila_info_carta_porte,"p_info_carta_porte_titulo","","PREGUNTAS FRECUENTES")
 
                     let p_info_carta_porte_descripcion_pregunta_obligados = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","• QUIÉNES ESTÁN OBLIGADOS A EMITIR?")
