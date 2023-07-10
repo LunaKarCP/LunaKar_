@@ -211,6 +211,7 @@ p{
     border-radius: 12px;
     padding: 6px;
 }
+
 @media (max-width:400px) {
     #fila_cuerpo_pestaña_anuncio_img_desc{
         flex-direction: column;

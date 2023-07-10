@@ -18,10 +18,14 @@ function DOM(){
                 let p_aviso_presiona_tecla = mkText(pestaña_anuncio,"","","Presiona cualquier tecla para continuar")
         
         document.addEventListener("click",function() {
-            cont_anuncio.remove()
+            if (cont_anuncio) {                
+                cont_anuncio.remove()
+            }
         })
         document.addEventListener("keydown",function() {
-            cont_anuncio.remove()
+            if (cont_anuncio) {                
+                cont_anuncio.remove()
+            }
         })
 
     let header_principal = mkObj(cont_principal,"header_principal","header_principal")
