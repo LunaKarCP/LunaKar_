@@ -5,7 +5,7 @@ function DOM(){
 
     let header_principal = mkObj(cont_principal,"header_principal","header_principal")
         //cont_img_logo_header
-        let logo_header = mkObjImg(header_principal,"img_logo_header","img_logo_header","./vista/img/logo.png")
+        let logo_header = mkObjImg(header_principal,"img_logo_header","img_logo_header","./vista/img/logo_lunakar_text_white.png")
 
 
     let cuerpo_principal = mkObj(cont_principal,"cuerpo_principal","cuerpo_principal")
@@ -28,15 +28,15 @@ function DOM(){
                     let p_info_carta_porte_descripcion_respuesta_obligados = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","-- Está obligada a emitir CFDI con Complemento Carta porte toda persona física o moral que realice operaciones de transporte de cargar a nivel nacional.")
 
                     let p_info_carta_porte_descripcion_pregunta_cuando_emitir = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","• ¿CUÁNDO DEBO EMITIR UN CFDI (c/ CCP)?")
-                    let p_info_carta_porte_descripcion_respuesta_cuando_emitir = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","-- El CFDI debe ser emitido cuado se realice una operacion de transporte de carga según las dispociciones fiscales vigentes")
+                    let p_info_carta_porte_descripcion_respuesta_cuando_emitir = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","-- El CFDI debe ser emitido cuado se realice una operacion de transporte de carga según las dispociciones fiscales vigentes.")
 
                     let p_info_carta_porte_descripcion_pregunta_como_validar = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","• ¿CÓMO VALIDAR LA INFORACIÓN DE CFDI c/ CCP}?")
-                    let p_info_carta_porte_descripcion_respuesta_como_validar = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","Puedes validar la autentiicdad de un CFDI con Complemento Carta Porte utiizando los servicios de consulta en linea que ofrece la plataforma del SAT")
+                    let p_info_carta_porte_descripcion_respuesta_como_validar = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","Puedes validar la autentiicdad de un CFDI con Complemento Carta Porte utiizando los servicios de consulta en linea que ofrece la plataforma del SAT.")
 
                     let p_info_carta_porte_descripcion_pregunta_fuentes = mkText(fila_info_carta_porte,"p_info_carta_porte_titulo","p_titulo_otros_recursos","OTROS RECURSOS")
-                        let a_info_dof_cartas_porte = mkTargetBlank(fila_info_carta_porte,"a_info_fuentes","","https://dof.gob.mx/nota_detalle_popup.php?codigo=5419975","• DOF - Diario Oficial de la Federación")
-                        let a_info_informacion_integrada = mkTargetBlank(fila_info_carta_porte,"a_info_fuentes","","http://omawww.sat.gob.mx/cartaporte/paginas/default.htm","• Qué información se integra en el complemento Carta Porte")
-                        let a_info_modificaciones_comp_fiscales = mkTargetBlank(fila_info_carta_porte,"a_info_fuentes","","http://ri.uaemex.mx/handle/20.500.11799/21840","• Modificaciones que han tenido los comprobantes fiscales en México durante los últimos 5 años y sus diferencias")
+                        let a_info_dof_cartas_porte = mkTargetBlank(fila_info_carta_porte,"a_info_fuentes","","https://dof.gob.mx/nota_detalle_popup.php?codigo=5419975","• DOF - Diario Oficial de la Federación.")
+                        let a_info_informacion_integrada = mkTargetBlank(fila_info_carta_porte,"a_info_fuentes","","http://omawww.sat.gob.mx/cartaporte/paginas/default.htm","• Qué información se integra en el complemento Carta Porte.")
+                        let a_info_modificaciones_comp_fiscales = mkTargetBlank(fila_info_carta_porte,"a_info_fuentes","","http://ri.uaemex.mx/handle/20.500.11799/21840","• Modificaciones que han tenido los comprobantes fiscales en México durante los últimos 5 años y sus diferencias.")
                     // let p_info_carta_porte_descripcion_respuesta_fuentes = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","Puedes validar la autentiicdad de un CFDI con Complemento Carta Porte utiizando los servicios de consulta en linea que ofrece la plataforma del SAT")
 
 
@@ -47,7 +47,7 @@ function DOM(){
                 let img_sat = mkObjImg(informacion_cartas_porte,"img_sat","img_sat","./vista/img/logo_sat.png")
 
                 let inf_carta_porte = mkObj(informacion_cartas_porte,"introduccion_inicio","introduccion_inicio_info")
-                    let inf_carta_porte_titulo = mkText(inf_carta_porte,"p_inf_cart","p_inf_cart_titulo","INFORMACIÓN CFDI CON COMPLEMETO CARTA PORTE")
+                    let inf_carta_porte_titulo = mkText(inf_carta_porte,"p_inf_cart","p_inf_cart_titulo","INFORMACIÓN REQUERIDA PARA EMITIR CFDI CON COMPLEMETO CARTA PORTE")
                     let inf_carta_porte_identificacion_fiscal = mkText(inf_carta_porte,"p_inf_cart","","-- Identificación Fiscal")
                     let inf_carta_porte_mercancia = mkText(inf_carta_porte,"p_inf_cart","","-- Información mercancía")
                     let inf_carta_porte_vehiculo_operador = mkText(inf_carta_porte,"p_inf_cart","","-- Información Vehículo / Operador")
