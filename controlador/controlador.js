@@ -60,7 +60,7 @@ function DOM(){
                     let p_info_carta_porte_descripcion_respuesta_cuando_emitir = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","-- El CFDI debe ser emitido cuado se realice una operacion de transporte de carga según las dispociciones fiscales vigentes.")
 
                     let p_info_carta_porte_descripcion_pregunta_como_validar = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","• ¿CÓMO VALIDAR LA INFORACIÓN DE CFDI c/ CCP?")
-                    let p_info_carta_porte_descripcion_respuesta_como_validar = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","Puedes validar la autentiicdad de un CFDI con Complemento Carta Porte utiizando los servicios de consulta en linea que ofrece la plataforma del SAT.")
+                    let p_info_carta_porte_descripcion_respuesta_como_validar = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","-- Puedes validar la autentiicdad de un CFDI con Complemento Carta Porte utiizando los servicios de consulta en linea que ofrece la plataforma del SAT.")
 
                     let p_info_carta_porte_descripcion_pregunta_fuentes = mkText(fila_info_carta_porte,"p_info_carta_porte_titulo","p_titulo_otros_recursos","OTROS RECURSOS")
                         let a_info_dof_cartas_porte = mkTargetBlank(fila_info_carta_porte,"a_info_fuentes","","https://dof.gob.mx/nota_detalle_popup.php?codigo=5419975","• DOF - Diario Oficial de la Federación.")

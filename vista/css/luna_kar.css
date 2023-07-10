@@ -216,7 +216,10 @@ p{
     }
 }
 
+.cont_img_publicidad_lunakar_confianza{
+    padding: 13px;
+}
+
 .img_publicidad_lunakar_confianza{
     border-radius: 12px;
-    padding: 13px;
 }
