@@ -115,6 +115,8 @@ p{
     flex-direction: column;
     padding: 12px;
     height: max-content;
+}#fila_info_carta_porte{
+    padding-bottom: 32px;
 }
 
 .cont_img_contacto{
@@ -131,6 +133,9 @@ p{
     padding: 10px;
     padding-left: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}#p_titulo_otros_recursos{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .p_info_carta_porte_descripcion{
@@ -144,4 +149,10 @@ p{
     padding-left: 45px;
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.a_info_fuentes{
+    font-size: 20px;
+    padding-left: 37px;
+    padding-bottom: 12px;
 }
