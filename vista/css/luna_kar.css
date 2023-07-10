@@ -20,7 +20,7 @@ html,body{
     overflow: none;
 }
 
-div,img{
+div,img,a{
     width: 100%;
     height: 100%;
     display: flex;
@@ -39,6 +39,7 @@ p{
 .header_principal{
     height: 90px;
     background-color: #1f1f1f;
+    border-bottom: solid 8px rgba(255, 255, 255, 0.486);
 }
 
 .cuerpo_principal{
@@ -63,6 +64,7 @@ p{
     padding-bottom: 50px;
 }
 
+
 .introduccion_inicio{
     height: min-content;
     text-align: center;
@@ -75,6 +77,9 @@ p{
     justify-content: center;
     text-align: start;
     font-family:Georgia, 'Times New Roman', Times, serif;
+}#introduccion_inicio_info{
+    flex-direction: column;
+    align-items: center;
 }
 
 .img_sat{
@@ -83,4 +88,26 @@ p{
 
 .informacion_cartas_porte{
     flex-direction: column;
+}
+
+.cont_p_inf_cart{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: max-content;
+}#p_inf_cart_titulo{
+    font-size: 26px;
+    background-color: rgba(255, 255, 255, 0.762);
+    padding: 22px;
+    border-radius: 5px;
+    color: #1a1a1a;
+}
+
+.p_inf_cart{
+
+}
+
+.fila_cuerpo{
+    /* min-height: 400px; */
+    background-color: rgb(0, 128, 255);
 }

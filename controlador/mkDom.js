@@ -317,3 +317,50 @@ function toggleVerContraseña(x) {
     })
 
 }
+
+//////
+
+function mkText(n,c,i,inner) {
+    n = n || ""
+    c = c || ""
+    i = i || ""
+    inner = inner || ""
+
+    c==""?c_c="":c_c="cont_"+c
+    i==""?c_i="":c_i="cont_"+i
+
+    let obj_temp = div(c_c,c_i)
+    n.appendChild(obj_temp)
+
+    let p_temp = document.createElement("p")
+    p_temp.setAttribute("class",c)
+    p_temp.setAttribute("id",i)
+    p_temp.innerHTML=inner
+    obj_temp.appendChild(p_temp)
+
+    return obj_temp
+
+}
+
+function mkTargetBlank(n,c,i,url,inner) {
+
+    n = n || ""
+    c = c || ""
+    i = i || ""
+    url = url || ""
+    inner = inner || ""
+
+    // c==""?c_c="":c_c="cont_"+c
+    // i==""?c_i="":c_i="cont_"+c
+
+    let obj_temp = document.createElement("a")
+    obj_temp.setAttribute("target","_blank")
+    obj_temp.setAttribute("class",c)
+    obj_temp.setAttribute("id",i)
+    obj_temp.setAttribute("href",url)
+    obj_temp.innerHTML=inner
+
+    n.appendChild(obj_temp)
+
+    return obj_temp
+}
