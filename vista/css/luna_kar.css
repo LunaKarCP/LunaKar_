@@ -51,8 +51,8 @@ p{
 }
 
 .cont_img_logo_header{
-    width: 80px;
-    height: 80px;
+    width: 85px;
+    height: 85px;
 }
 
 .img_logo_header{
@@ -161,4 +161,13 @@ p{
     border-radius: 5px;
 }.a_info_fuentes:hover{
     background-color: #8bbfe4;
+}
+
+.cont_img_documentos_toon{
+    justify-content: center;
+    padding: 20px;
+}
+
+.img_documentos_toon{
+    max-width: 600px;
 }
