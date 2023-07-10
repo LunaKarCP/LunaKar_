@@ -43,17 +43,17 @@ function DOM(){
                 let p_info_carta_porte_titulo_beneficios = mkText(fila_info_carta_porte,"p_info_carta_porte_titulo","","BENEFICIOS")
                     let p_info_carta_porte_descripcion_beneficios_cumplimiento_fiscal = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","-- Cumplimiento Fiscal: Permite cumplir con obligaciones fiscales para evitar sanciones.")
                     let p_info_carta_porte_descripcion_beneficios_gestion_informacion = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","-- Gestión de Información: Integración datos más precisos.")
-                    let p_info_carta_porte_descripcion_beneficios_transparecia_seguridad = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","-- Transparencia y Seguridad: Registro electrónico detallado que evita prácticas fraudelentas e irregulariodades en la cadena de suministro.")
+                    let p_info_carta_porte_descripcion_beneficios_transparecia_seguridad = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","-- Transparencia y Seguridad: Registro electrónico detallado que evita prácticas fraudelentas e irregularidades en la cadena de suministro.")
 
                 let p_info_carta_porte_titulo_preguntas_frecuentes = mkText(fila_info_carta_porte,"p_info_carta_porte_titulo","","PREGUNTAS FRECUENTES")
 
                     let p_info_carta_porte_descripcion_pregunta_obligados = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","• QUIÉNES ESTÁN OBLIGADOS A EMITIR?")
-                    let p_info_carta_porte_descripcion_respuesta_obligados = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","-- Está obligada a emitir CFDI con Complemento Carta porte toda persona física o moral que realice operaciones de transporte de cargar a nivel nacional.")
+                    let p_info_carta_porte_descripcion_respuesta_obligados = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","-- Está obligada a emitir CFDI con Complemento Carta Porte, toda persona física o moral que realice operaciones de transporte de cargar a nivel nacional.")
 
-                    let p_info_carta_porte_descripcion_pregunta_cuando_emitir = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","• ¿CUÁNDO DEBO EMITIR UN CFDI (c/ CCP)?")
+                    let p_info_carta_porte_descripcion_pregunta_cuando_emitir = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","• ¿CUÁNDO DEBO EMITIR UN CFDI CON COMPLEMENTO CARTA PORTE")
                     let p_info_carta_porte_descripcion_respuesta_cuando_emitir = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","-- El CFDI debe ser emitido cuado se realice una operacion de transporte de carga según las dispociciones fiscales vigentes.")
 
-                    let p_info_carta_porte_descripcion_pregunta_como_validar = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","• ¿CÓMO VALIDAR LA INFORACIÓN DE CFDI c/ CCP}?")
+                    let p_info_carta_porte_descripcion_pregunta_como_validar = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","• ¿CÓMO VALIDAR LA INFORACIÓN DE CFDI c/ CCP?")
                     let p_info_carta_porte_descripcion_respuesta_como_validar = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","Puedes validar la autentiicdad de un CFDI con Complemento Carta Porte utiizando los servicios de consulta en linea que ofrece la plataforma del SAT.")
 
                     let p_info_carta_porte_descripcion_pregunta_fuentes = mkText(fila_info_carta_porte,"p_info_carta_porte_titulo","p_titulo_otros_recursos","OTROS RECURSOS")
