@@ -12,7 +12,14 @@ function DOM(){
 
         let pestaña_inicio = mkObj(cuerpo_principal,"pestaña","pestaña_inicio")
 
-            let bar_top = mkObj(pestaña_inicio,"bar_top")
+            let fila_info_carta_porte = mkObj(pestaña_inicio,"fila_cuerpo")
+
+                let p_info_carta_porte_titulo = mkText(fila_info_carta_porte,"p_info_carta_porte_titulo","","¿QUÉ ES EL CFDI CON COMPLEMENTO CARTA PORTE?")
+                let p_info_carta_porte_descripcion = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion","","El Complemento Fiscal Digital por Internet (CFDI), es un documento oficial que sirve para respaldar las operaciones comerciales y fiscales. Es un comporbante obligatorio para transacciones de compra/venta en servicios de transporte. El CFDI es emitido y respaldado por el SAT como evidencia electrónica para las trasacciones comerciales y fiscales.")
+
+                let p_info_carta_porte_titulo_beneficios = mkText(fila_info_carta_porte,"p_info_carta_porte_titulo","","BENEFICIOS")
+                    let p_info_carta_porte_descripcion_beneficios_cumplimiento_fiscal = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","-- Cumplimiento Fiscal: Permite cumplir con obligaciones fiscales para evitar sanciones.")
+                    let p_info_carta_porte_descripcion_beneficios_gestion_informacion = mkText(fila_info_carta_porte,"p_info_carta_porte_descripcion_beneficios","","-- Gestión de Información: Integración datos más precisos.")
 
             let introduccion_inicio = mkObj(pestaña_inicio,"introduccion_inicio","introduccion_inicio_intro")
                 introduccion_inicio.innerHTML="<p>Contamos con una gran experiencia en servicios de facturación electrónica, comprometidos en brindar soluciones eficientes y confiables para tus necesidades fiscales. Nuestra amplia experiencia en el campo de la facturación nos ha posicionado como un socio confiable para empresas de diversos sectores y tamaños. En •<span style='font-size:xx-large;color:white;'><span style='color:var(--colorc);'>Luna</span> Kar</span>•, entendemos la importancia de contar con un proceso de facturación ágil, seguro y en cumplimiento con las normativas vigentes. Es por eso que ofrecemos un conjunto completo de servicios diseñados para simplificar y optimizar tu gestión tributaria. Nuestro equipo está dedicado a proporcionarte un servicio personalizado, adaptado a las particularidades de tu empresa o servicios que realizas. Desde la emisión de facturas electrónicas y la generación de CFDI, hasta la gestión de complementos de pago y la asesoría fiscal, estamos aquí para cubrir todas tus necesidades relacionadas con la facturación.</p>"
@@ -30,6 +37,9 @@ function DOM(){
                 
                 let a_img_contacto = mkTargetBlank(informacion_contacto,"a_img_contacto","a_img_contacto","https://wa.me/5551736226")
                     let img_contacto = mkObjImg(a_img_contacto,"img_contacto","img_contacto","./vista/img/whats.png")
+
+                let info_contacto = mkObj(informacion_contacto,"introduccion_inicio")
+                    let p_inf_contacto = mkText(info_contacto,"","","Número: (+52) 55 5173 6226")
                 
 
 

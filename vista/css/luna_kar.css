@@ -115,8 +115,35 @@ p{
 
 .fila_cuerpo{
     /* min-height: 400px; */
+    flex-direction: column;
+    padding: 12px;
+}
+
+.cont_img_contacto{
+    padding: 38px;
 }
 
 .img_contacto{
-    margin-top: 8px;
+    /* margin-top: 18px; */
+    /* margin-bottom: 18px; */
+}
+
+.p_info_carta_porte_titulo{
+    font-size: 28px;
+    padding: 10px;
+    padding-left: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p_info_carta_porte_descripcion{
+    padding: 10px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p_info_carta_porte_descripcion_beneficios{
+    padding: 10px;
+    padding-left: 45px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
