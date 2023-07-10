@@ -204,9 +204,15 @@ p{
 }
 
 .cont_p_descripcion_pestaña_anuncio{
-    width: 75px;
+    /* min-width: 75px; */
+    max-width: 250px;
     text-align:justify;
     border: solid 1px #1e1e1e;
     border-radius: 12px;
     padding: 6px;
+}
+@media (max-width:400px) {
+    #fila_cuerpo_pestaña_anuncio_img_desc{
+        flex-direction: column;
+    }
 }
