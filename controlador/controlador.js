@@ -3,6 +3,27 @@ function DOM(){
 
     let cont_principal = mkObj(body,"cont_principal","cont_principal")
 
+        //
+        let cont_anuncio = mkObj(cont_principal,"cont_anuncio","cont_anuncio")
+
+            let pestaña_anuncio = mkObj(cont_anuncio,"pestaña_anuncio","pestaña_anuncio")
+
+                let p_titulo_pestaña_anuncio = mkText(pestaña_anuncio,"p_titulo_pestaña_anuncio","","!Bienvenido a LunaKar!")
+
+                let fila_pestaña_anuncio = mkObj(pestaña_anuncio,"fila_cuerpo","fila_cuerpo_pestaña_anuncio_img_desc")
+
+                    let img_operador_toon = mkObjImg(fila_pestaña_anuncio,"img_operador_toon","img_operador_toon","./vista/img/operador_toon.png")
+                    let p_descripcion_pestaña_anuncio = mkText(fila_pestaña_anuncio,"p_descripcion_pestaña_anuncio","p_descripcion_pestaña_anuncio","Hola, estamos aquí para resolver tus dudas, puedes ponerte en contacto a traves de nuestras redes y otros medios para que podamos apoyarte.")
+                
+                let p_aviso_presiona_tecla = mkText(pestaña_anuncio,"","","Presiona cualquier tecla para continuar")
+        
+        document.addEventListener("click",function() {
+            cont_anuncio.remove()
+        })
+        document.addEventListener("keydown",function() {
+            cont_anuncio.remove()
+        })
+
     let header_principal = mkObj(cont_principal,"header_principal","header_principal")
         //cont_img_logo_header
         let logo_header = mkObjImg(header_principal,"img_logo_header","img_logo_header","./vista/img/logo_lunakar_text_white.png")

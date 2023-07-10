@@ -37,6 +37,25 @@ p{
 .cont_principal{
     flex-direction: column;
     padding-bottom: 35px;
+    position: relative;
+}
+
+.cont_anuncio{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(95, 127, 160, 0.564);
+}
+
+.pestaña_anuncio{
+    background-color: aliceblue;
+    flex-direction: column;
+    border-radius: 12px;
+    border: solid 1px black;
+    width: min-content;
+    height: min-content;
+    padding: 12px;
 }
 
 .header_principal{
@@ -116,6 +135,9 @@ p{
     height: max-content;
 }#fila_info_carta_porte{
     padding-bottom: 32px;
+}#fila_cuerpo_pestaña_anuncio_img_desc{
+    flex-direction: row;
+    align-items: center;
 }
 
 .cont_img_contacto{
@@ -170,4 +192,17 @@ p{
 
 .img_documentos_toon{
     max-width: 600px;
+}
+
+.p_titulo_pestaña_anuncio{
+    font-size: 26px;
+}
+
+.cont_img_operador_toon{
+    min-width: 250px;
+    padding: 12px;
+}
+
+.cont_p_descripcion_pestaña_anuncio{
+    width: 150px;
 }
