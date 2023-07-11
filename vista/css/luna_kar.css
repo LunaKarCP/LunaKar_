@@ -1,3 +1,12 @@
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 :root{
     --colora:#1f1f1f;
     --colora_a:#1f1f1fb7;
@@ -40,13 +49,18 @@ p{
     position: relative;
 }
 
-.cont_anuncio{
+.cont_anuncio,.cont_descripcion{
     position: absolute;
     align-items: center;
     justify-content: center;
 
     background-color: rgba(95, 127, 160, 0.564);
 }
+
+.cuerpo_anuncio{
+    flex-direction: column;
+}
+
 
 .pestaña_anuncio{
     background-color: aliceblue;
@@ -90,7 +104,7 @@ p{
     height: min-content;
     text-align: center;
     background-color: var(--colorb);
-    color: rgb(195, 195, 195);
+    color: rgb(236, 236, 236);
     padding: 22px;
     border-radius: 6px;
     font-size: x-large;
@@ -99,6 +113,7 @@ p{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }#introduccion_inicio_info{
     flex-direction: column;
+    padding-bottom: 61px;
     /* align-items: center; */
 }
 
@@ -118,14 +133,23 @@ p{
     padding: 10px;
 }#p_inf_cart_titulo{
     font-size: 26px;
-    background-color: rgba(255, 255, 255, 0.762);
+    background-color: rgba(68, 255, 130, 0.809);
     padding: 22px;
     border-radius: 5px;
-    color: #1a1a1a;
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-bottom: 34px;
 }
 
 .p_inf_cart{
-
+    background-color: rgb(239, 239, 239);
+    color: #1a1a1a;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}.p_inf_cart:hover{
+    background-color: #a5e0c5;
 }
 
 .fila_cuerpo{
@@ -135,13 +159,22 @@ p{
     height: max-content;
 }#fila_info_carta_porte{
     padding-bottom: 32px;
+    padding-right: 0;
 }#fila_cuerpo_pestaña_anuncio_img_desc{
     flex-direction: row;
     align-items: center;
+}#fila_cuerpo_info_contacto{
+    padding: 0;
+    margin: 0;
 }
 
 .cont_img_contacto{
-    padding: 38px;
+    padding: 120px;
+    background-color: var(--colora);
+
+}.cont_img_contacto:hover{
+    background-color: #242424;
+
 }
 
 .img_contacto{
@@ -198,10 +231,31 @@ p{
     font-size: 26px;
 }
 
+.btn_cerrar_anuncio{
+    width: 28px;
+    height: 28px;
+    padding: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 50%;
+    color: white;
+    background-color: #6674ee;
+    font-size: large;
+    border: solid 2px var(--colora);
+}.btn_cerrar_anuncio:hover{
+    background-color: #ee669c;
+}
+
+.header_anuncio{
+    align-items: center;
+    padding-bottom: 12px;
+}
+
 .cont_img_operador_toon{
     min-width: 175px;
     padding: 12px;
 }
+
 
 .cont_p_descripcion_pestaña_anuncio{
     /* min-width: 75px; */
@@ -218,6 +272,7 @@ p{
 
 .cont_img_publicidad_lunakar_confianza{
     padding: 13px;
+    padding-right: 0;
 }
 
 .img_publicidad_lunakar_confianza{

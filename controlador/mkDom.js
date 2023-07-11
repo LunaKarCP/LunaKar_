@@ -364,3 +364,69 @@ function mkTargetBlank(n,c,i,url,inner) {
 
     return obj_temp
 }
+function eliminarObj(x) {
+    if (x) {
+        x.remove()
+    }
+    return x
+}
+
+function mkPestañaText(n,c,i,t,...inner) {
+    n=n||""
+    c=c||""
+    i=i||""
+    t=t||""
+    inner=inner||""
+    
+    //pestaña
+    c==""?p_c="":p_c="pestaña_"+c
+    i==""?p_i="":p_i="pestaña_"+i
+    
+    //header
+    c==""?h_c="":h_c="header_"+c
+    i==""?h_i="":h_i="header_"+i
+    
+        //titulo
+        c==""?t_c="":t_c="tittle_"+c
+        i==""?t_i="":t_i="tittle_"+i
+    
+        //boton
+        c==""?btn_c="":btn_c="btn_cerrar_"+c
+        i==""?btn_i="":btn_i="btn_cerrar_"+i
+    
+    //cuerpo
+    c==""?crp_c="":crp_c="cuerpo_"+c
+    i==""?crp_i="":crp_i="cuerpo_"+i
+    
+        //texto fila
+        c==""?tf_c="":tf_c="cuerpo_"+c
+        i==""?tf_i="":tf_i="cuerpo_"+i
+    
+    
+    
+            
+    
+    let obj_p = div(p_c,p_i)
+    n.appendChild(obj_p)
+    
+    let obj_h = mkObj(obj_p,h_c,h_i)
+        let obj_t = mkText(obj_h,t_c,t_i,t)
+        let obj_btn_close = mkObj(obj_h,btn_c,btn_i,"~")
+            obj_btn_close.style.userSelect="none"
+            obj_btn_close.style.alignItems="center"
+            obj_btn_close.style.justifyContent="center"
+            obj_btn_close.style.cursor="pointer"
+            obj_btn_close.addEventListener("mouseup",function() {
+                obj_p.remove()
+                return obj_p
+            })
+    
+    
+    let obj_crp = mkObj(obj_p,crp_c,crp_i)
+    
+        for (let j = 0; j < inner.length; j++) {
+            let obj_p_crp = mkText(obj_crp,tf_c+inner[j],tf_i+inner[j],inner[j])
+        }
+    
+    return obj_p
+    }
