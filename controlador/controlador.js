@@ -93,7 +93,7 @@ function DOM(){
 
             let informacion_contacto = mkObj(pestaña_inicio,"fila_cuerpo","fila_cuerpo_info_contacto")
                 
-                let a_img_contacto = mkTargetBlank(informacion_contacto,"a_img_contacto","a_img_contacto","https://wa.me/5551736226")
+                let a_img_contacto = mkTargetBlank(informacion_contacto,"a_img_contacto","a_img_contacto","https://wa.me/8131010497")
                     let img_contacto = mkObjImg(a_img_contacto,"img_contacto","img_contacto","./vista/img/whats.png")
 
                 let info_contacto = mkObj(informacion_contacto,"introduccion_inicio")
