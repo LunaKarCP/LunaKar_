@@ -97,7 +97,7 @@ function DOM(){
                     let img_contacto = mkObjImg(a_img_contacto,"img_contacto","img_contacto","./vista/img/whats.png")
 
                 let info_contacto = mkObj(informacion_contacto,"introduccion_inicio")
-                    let p_inf_contacto = mkText(info_contacto,"","","Número: (+52) 55 5173 6226")
+                    let p_inf_contacto = mkText(info_contacto,"","","Número: (+52) 81 3101 0497")
             
             
                 
