@@ -21,6 +21,8 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }*::-webkit-scrollbar{
     width: 0;
     height: 0;
@@ -79,7 +81,7 @@ p{
 }
 
 .cuerpo_principal{
-    background-color: rgb(223, 227, 230);
+    background-color: white;
     padding-bottom: 12px;
 }
 
@@ -99,7 +101,6 @@ p{
     padding-bottom: 50px;
 }
 
-
 .introduccion_inicio{
     height: min-content;
     text-align: center;
@@ -111,6 +112,7 @@ p{
     justify-content: center;
     text-align: start;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 12px;
 }#introduccion_inicio_info{
     flex-direction: column;
     padding-bottom: 61px;
@@ -264,8 +266,11 @@ p{
     border: solid 1px #1e1e1e;
     border-radius: 12px;
     padding: 6px;
-}@media (max-width:400px) {
+}@media (max-width:700px) {
     #fila_cuerpo_pestaña_anuncio_img_desc{
+        flex-direction: column;
+    }
+    .contenedor_files_tecno{
         flex-direction: column;
     }
 }
@@ -278,3 +283,104 @@ p{
 .img_publicidad_lunakar_confianza{
     border-radius: 12px;
 }
+
+.bienvenida{
+    flex-direction: column;
+    height: min-content;
+    padding: 9px;
+}
+
+.cont_bienvenida_descripcion{
+    flex-direction: column;
+    padding: 12px;
+    /* height: min-content ; */
+}
+
+.cont_p_info_carta_porte_titulo{
+    padding: 6px;
+}
+
+.cont_sub_text_bienvenida_descripcion{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 16px;
+    font-size: 26px;
+}
+
+#sub_text_bienvenida_descripcion_0{
+    font-size: 46px;
+    padding: 16px;
+}
+.contenedor_files_tecno{
+    /* height: min-content; */
+    padding: 32px;
+    box-shadow: 0 0 9px black;
+    border-radius: 8px;
+}
+.cont_img_files{
+    height: min-content;
+    justify-content: center;
+    padding: 12px;
+}
+.img_files{
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.cont_img_files_descripcion{
+    flex-direction: column;
+}
+.cont_sub_text_img_files_descripcion{
+    align-items: center;
+}
+.sub_text_img_files_descripcion{
+    font-size: 26px;
+}
+.cont_logo{
+    align-items: center;
+    justify-content: center;
+    /* min-height: 92%; */
+    border-radius: 6px;
+    background-color: var(--colorc);
+    height: min-content;
+    padding: 24px;
+}
+.logo{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+    box-shadow: 0 0 9px black;
+}
+
+#contenido_experiencia {
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    height: 100vh;
+  }
+  
+  .cont_descripcion_general_experiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .cont_sub_text_descripcion_general_experiencia {
+    margin: 10px 0;
+  }
+  
+  .sub_text_descripcion_general_experiencia {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  #sub_text_descripcion_general_experiencia_0{
+    font-size: 32px;
+    color:var(--colorc);
+  }
+  

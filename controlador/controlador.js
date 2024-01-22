@@ -35,6 +35,36 @@ function DOM(){
 
         let pestaña_inicio = mkObj(cuerpo_principal,"pestaña","pestaña_inicio")
 
+            let logo = mkObjImg(pestaña_inicio,"logo","logo","./vista/img/logo_lunakar.png")
+
+            let bienvenida = mkObj(pestaña_inicio,"bienvenida","bienvenida")
+                let bienvenida_descripcion = mkTextList(bienvenida,"bienvenida_descripcion","bienvenida_descripcion",
+                    "Bienvenido a LunaKar",
+                    "En LunaKar nos enfocamos en ofrecer soluciones adaptadas a tus necesidades",
+                    "Nuestra filosofía es ayudar a las empresa a mejorar sus tecnologias para reducir sus tareas repetitivas y mejorar la experiencia digital",
+                    "Contamos con soporte para cualquier necesidad que se te llegara a presentar mientras utilizas nuestros productos realizados a tu medida",
+                    "Ofrecemos servicion de asesorían y administracion remota, asi como servicio de facturación (CFDI con complemento carta porte)",
+                    "Teléfono y WhatsApp: <a href='https:\/\/wa.me/8131010497' target='_blank'> 8131010497</a>",
+                    "Facebook: <a href='https:\/\/facebook.com/profile.php?id=100093958578851' target='_blank'> facebook.com/profile.php?id=100093958578851</a>",
+                )
+                
+                let contenedor_files_tecno = mkObj(bienvenida,"contenedor_files_tecno","contenedor_files_tecno")
+                    let img_files = mkObjImg(contenedor_files_tecno,"img_files","img_files","./vista/img/files.png")
+                    let img_files_descripcion = mkTextList(contenedor_files_tecno,"img_files_descripcion","img_files_descripcion",
+                        "Organiza toda tu documentación en una sola plataforma y compartela con tus colegas.",
+                        "Automatiza tus reportes.",
+                        "Almacena tus datos y accede siempre que lo necesites.",
+                    )
+
+            let contenido_experiencia = mkObj(pestaña_inicio,"contenido_experiencia","contenido_experiencia")
+                let descripcion_general_experiencia = mkTextList(contenido_experiencia,"descripcion_general_experiencia","descripcion_general_experiencia",
+                    "Areas de experiencia.",
+                    "Elaboracion de plataformas web para administración global de datos logísticos.",
+                    "Automatización de formularios para facilitar y acelerar tareas de captura.",
+                    "Catálogos comerciales con información relevante de productos.",
+                    "Sistema automático de cotizaciones.",
+                )
+
             let fila_info_carta_porte = mkObj(pestaña_inicio,"fila_cuerpo","fila_info_carta_porte")
 
                 let p_info_carta_porte_titulo = mkText(fila_info_carta_porte,"p_info_carta_porte_titulo","","¿QUÉ ES EL CFDI CON COMPLEMENTO CARTA PORTE?")

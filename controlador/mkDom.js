@@ -430,3 +430,23 @@ function mkPestañaText(n,c,i,t,...inner) {
     
     return obj_p
     }
+
+    function mkTextList(n,c,i,...inner) {
+        n = n || "";c = c || "";i = i || "";inner = inner || "";c==""?c_c="":c_c="cont_"+c;i==""?c_i="":c_i="cont_"+i;
+        
+        let obj_temp = div(c_c,c_i)
+        n.appendChild(obj_temp)
+    
+        let p_temp = document.createElement("p")
+        p_temp.setAttribute("class",c)
+        p_temp.setAttribute("id",i)
+        for (let j = 0; j < inner.length; j++) {
+            let element = inner[j];
+            // ! console.log(element)
+            let sub_text = mkText(obj_temp,"sub_text_"+c,"sub_text_"+i+"_"+j,element)
+            // ! console.log(sub_text)
+                
+        }
+        return obj_temp
+    }
+    
